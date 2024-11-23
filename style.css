@@ -5,22 +5,20 @@ body {
 }
 
 .List {
+  color: grey;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
   list-style-type: none;
   display: flex;
   justify-content: center;
   gap: 50px;
 }
 
-.top {
-  font-family: "Roboto", sans-serif;
-  font-weight: 100;
-  font-style: normal;
-  color: rgb(95, 24, 62);
-  display: flex;
-  justify-content: center;
-  gap: 10px;
+a {
+  color: gray;
+  text-decoration: none;
 }
-
 h1 {
   font-family: "Roboto", sans-serif;
   font-weight: 900;
