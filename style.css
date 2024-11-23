@@ -1,15 +1,21 @@
-body{
-    padding: 0px;
-   
-    background: url(elegido.jpg);
+body {
+  padding: 0px;
+
+  background: url(elegido.jpg);
 }
 
-.top{
-    font-style:italic;
-    color:aliceblue;
-    display: flex;
-    justify-content:flex-start;
-    gap: 10px;
+.top {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  color: rgb(255, 240, 248);
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+}
 
-
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
 }
