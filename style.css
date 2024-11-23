@@ -1,0 +1,15 @@
+body{
+    padding: 0px;
+   
+    background: url(elegido.jpg);
+}
+
+.top{
+    font-style:italic;
+    color:aliceblue;
+    display: flex;
+    justify-content:flex-start;
+    gap: 10px;
+
+
+}
