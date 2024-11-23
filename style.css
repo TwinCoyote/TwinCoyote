@@ -1,26 +1,63 @@
 body {
   padding: 0px;
 
-  background: url(elegido.jpg);
+  background-color: rgb(255, 255, 253);
+}
+
+.home {
+  background-image: url("fondo.jpg");
+  background-position: 70% 70%;
+}
+div {
+  display: block;
+  unicode-bidi: isolate;
+}
+.container {
+  width: 100%;
+  height: 100vh;
 }
 
 .List {
-  color: grey;
+  color: rgb(226, 230, 43);
   font-family: "Roboto", sans-serif;
   font-weight: 500;
+  font-size: 20px;
   font-style: normal;
   list-style-type: none;
   display: flex;
   justify-content: center;
-  gap: 50px;
+  gap: 90px;
+}
+
+.slides {
+  width: 100%;
+  height: 100vh;
 }
 
 a {
-  color: gray;
+  color: rgba(87, 85, 85, 0.452);
   text-decoration: none;
 }
 h1 {
   font-family: "Roboto", sans-serif;
   font-weight: 900;
   font-style: normal;
+}
+
+.slide_1 {
+  display: flex;
+  align-items: center;
+  justify-content: baseline;
+  gap: 30px;
+}
+
+.slide_2 {
+  background-color: rgb(240, 7, 7);
+  display: flex;
+  justify-content: flex-start;
+}
+
+img {
+  border-radius: 50%;
+  width: 10%;
 }
