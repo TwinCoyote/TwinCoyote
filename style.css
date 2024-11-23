@@ -7,6 +7,7 @@ body {
 .home {
   background-image: url("fondo.jpg");
   background-position: 70% 70%;
+  background-attachment: scroll;
 }
 div {
   display: block;
