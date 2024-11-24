@@ -53,16 +53,14 @@ h1 {
 }
 
 img {
+  width: 1280px;
+  height: 720px;
 }
 
 .informacion {
-  background-color: rgb(236, 0, 0);
-  display: flex;
 }
 .half_display {
-  width: 50%;
+  width: 80%;
 }
 .avatar {
-  width: 25%;
-  border-right-color: aliceblue;
 }
