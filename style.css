@@ -54,16 +54,17 @@ h1 {
 
 .informacion {
   background-color: black;
-  padding: 3rem;
   display: flex;
+  filter: blur(4px);
 }
 
 .conocimientos {
-  background-color: brown;
   width: 50%;
-  gap: 5px;
 }
 
 .avatar {
   width: 50%;
+}
+
+.img {
 }
