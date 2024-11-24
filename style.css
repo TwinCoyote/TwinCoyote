@@ -52,10 +52,11 @@ h1 {
   gap: 50px;
 }
 
-.informacion {
+.Fondo_2 {
   background-color: black;
   display: flex;
-  filter: blur(4px);
+  filter: blur(2px);
+  position: absolute;
 }
 
 .conocimientos {
@@ -67,4 +68,18 @@ h1 {
 }
 
 .img {
+}
+
+.Seguna_Parte {
+  margin: 500px; /* AJUSTAR SI SE PEGAN LOS FONDOS*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flotante {
+  background-color: aliceblue;
+  width: 50%;
+  height: 50%;
+  position: absolute;
 }
