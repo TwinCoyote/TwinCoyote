@@ -1,21 +1,14 @@
 body {
-  padding: 0px;
-
-  background-color: rgb(255, 255, 253);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .home {
   background-image: url("fondo.jpg");
   background-position: 70% 70%;
-  background-attachment: scroll;
-}
-div {
-  display: block;
-  unicode-bidi: isolate;
-}
-.container {
   width: 100%;
-  height: 100vh;
+  height: 1280px;
 }
 
 .List {
@@ -52,13 +45,24 @@ h1 {
   gap: 30px;
 }
 
-.slide_2 {
+.sobre_mi {
   background-color: rgb(240, 7, 7);
   display: flex;
   justify-content: flex-start;
+  gap: 50px;
 }
 
 img {
-  border-radius: 50%;
-  width: 10%;
+}
+
+.informacion {
+  background-color: rgb(236, 0, 0);
+  display: flex;
+}
+.half_display {
+  width: 50%;
+}
+.avatar {
+  width: 25%;
+  border-right-color: aliceblue;
 }
