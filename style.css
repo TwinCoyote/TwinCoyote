@@ -39,7 +39,7 @@ body {
 }
 
 a {
-  color: rgb(253, 4, 4);
+  color: #e8e8e8e0;
   text-decoration: none;
 }
 h1 {
@@ -52,10 +52,11 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: baseline;
+  margin-top: 250px;
 }
 
 .sobre_mi {
-  background-color: rgb(240, 7, 7);
+  background-color: rgb(247, 247, 247);
   display: flex;
   justify-content: flex-start;
   gap: 50px;
@@ -93,7 +94,7 @@ h1 {
 }
 
 .first-text {
-  color: rgb(43, 92, 228);
+  color: #d4a017;
 }
 
 .escritura {
