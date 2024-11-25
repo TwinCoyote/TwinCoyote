@@ -41,6 +41,17 @@
         </un>
       </nav>
 
+      <script>
+        document.addEventListener("scroll", () => {
+          const menu = document.querySelector(".List");
+          if (window.scrollY > 850) {
+            menu.classList.add("scrolled");
+          } else {
+            menu.classList.remove("scrolled");
+          }
+        });
+      </script>
+
       <div class="container">
         <div class="slide_1">
           <span class="texto first-text"> ¡Hola, mundo!</span>
