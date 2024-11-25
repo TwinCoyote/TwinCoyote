@@ -127,7 +127,7 @@ h1 {
 
 .descripcion {
   background-color: rgb(255, 255, 255);
-  height: 90px;
+  height: 300px;
   display: flex;
   align-items: center;
   justify-self: center;
@@ -135,4 +135,15 @@ h1 {
   font-weight: 500;
   font-size: 20px;
   font-style: normal;
+  width: 900px;
+  text-align: center;
+}
+
+.linea {
+  background-image: url("acento-circunflejo.png");
+  display: flex;
+  justify-self: center;
+  width: 50px;
+  height: 50px;
+  background-size: 100%;
 }
