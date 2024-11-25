@@ -43,33 +43,51 @@
 
       <div class="container">
         <div class="slide_1">
-          <h1>Hola</h1>
-          <h1>Soy Ruben R.</h1>
+          <span class="texto first-text"> ¡Hola, mundo!</span>
+          <span class="texto second-text"> </span>
+          
         </div>
+
+        <script>
+          const text = document.querySelector('.second-text');
+          const textLoad = () =>{
+            setTimeout(()=>{
+
+              text.textContent ="Soy Ruben"
+            }, 0);
+
+            setTimeout(()=>{
+
+                text.textContent ="Estudiante"
+                }, 4000);
+
+                setTimeout(()=>{
+
+                  text.textContent ="¡Saludos!"
+                  }, 8000);
+
+                  setTimeout(()=>{
+
+                  text.textContent ="Desarrollador Creativo"
+                  }, 12000);
+
+
+          }
+          textLoad();
+        </script>
 
     </header>
 
       <div class="Seguna_Parte"> 
 
-          <div class="Fondo_2" >
-            <div class="Avatar,"> 
-                <img src="yo.jpeg" alt="Avatar poco realista de Ruben">
-            </div>
+        <div>
 
-            <div class="conocimientos">
-      
-              <img src="super.jpg" alt="Avatar poco realista de Ruben">
 
-            </div>
+        </div>
 
-          </div>
 
-          
-          <div class="flotante">
-            <h1> hola</h1>
-  
-          </div>
 
+ 
       </div>  
 
       <div class="sobre_mi" > 
