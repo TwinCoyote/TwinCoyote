@@ -9,9 +9,8 @@
 body {
   display: flex;
   flex-direction: column;
-  background-color: rgb(238, 49, 49);
   margin: 0%;
-  overflow: hidden;
+  /*overflow: hidden; */
 }
 
 .home {
@@ -33,11 +32,6 @@ body {
   gap: 90px;
 }
 
-.slides {
-  width: 100%;
-  height: 100vh;
-}
-
 a {
   color: #e8e8e8e0;
   text-decoration: none;
@@ -55,40 +49,8 @@ h1 {
   margin-top: 250px;
 }
 
-.sobre_mi {
-  background-color: rgb(247, 247, 247);
-  display: flex;
-  justify-content: flex-start;
-  gap: 50px;
-}
-
-.Fondo_2 {
-  background-color: black;
-  display: flex;
-  filter: blur(2px);
-  position: absolute;
-}
-
-.conocimientos {
-  width: 50%;
-}
-
-.avatar {
-  width: 50%;
-}
-
-.img {
-}
-
-.Seguna_Parte {
-  /*  margin: 500px; AJUSTAR SI SE PEGAN LOS FONDOS*/
-  width: 1280px;
-  height: 920px;
-}
-
 .texto {
   color: white;
-  position: relative;
   font-size: 100px;
   font-weight: 600;
 }
@@ -107,4 +69,16 @@ h1 {
   color: white;
   text-align: center;
   font-size: 100px;
+}
+
+.segunda_parte {
+  background-color: #ffffff;
+  width: 100%;
+  height: 920px;
+}
+
+.tercera_parte {
+  background-color: #2b2b2b;
+  width: 100%;
+  height: 920px;
 }
