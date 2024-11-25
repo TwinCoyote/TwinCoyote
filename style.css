@@ -52,7 +52,6 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: baseline;
-  gap: 30px;
 }
 
 .sobre_mi {
@@ -97,24 +96,14 @@ h1 {
   color: rgb(43, 92, 228);
 }
 
-.second-text::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(223, 8, 8, 0.932);
-  border-left: 4px solid #ffffff;
-  animation: animate 4s steps(12) infinite;
+.escritura {
+  color: white;
+  font-size: 100px;
+  font-weight: 600;
 }
 
-@keyframes animate {
-  40%,
-  60% {
-    left: 100%;
-  }
-  100% {
-    left: 0%;
-  }
+.typed-cursor {
+  color: white;
+  text-align: center;
+  font-size: 100px;
 }

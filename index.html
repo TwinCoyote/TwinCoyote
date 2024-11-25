@@ -44,81 +44,48 @@
       <div class="container">
         <div class="slide_1">
           <span class="texto first-text"> ¡Hola, mundo!</span>
-          <span class="texto second-text"> </span>
-          
         </div>
+        <div class="escritura_mov">
+          <span class="escritura"> </span>
+        </div>
+      </div>
+      <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
 
-        <script>
-          const text = document.querySelector('.second-text');
-          const textLoad = () =>{
-            setTimeout(()=>{
-
-              text.textContent ="Soy Ruben"
-            }, 0);
-
-            setTimeout(()=>{
-
-                text.textContent ="Estudiante"
-                }, 4000);
-
-                setTimeout(()=>{
-
-                  text.textContent ="¡Saludos!"
-                  }, 8000);
-
-                  setTimeout(()=>{
-
-                  text.textContent ="Desarrollador Creativo"
-                  }, 12000);
-
-
-          }
-          textLoad();
-        </script>
-
+      <script>
+        var typed = new Typed(".escritura", {
+          strings: ["Soy Ruben R.", " Soy Estudiante", " Soy Entusiasta"],
+          typeSpeed: 100,
+          BackSpeed: 70,
+          loop: true,
+        });
+      </script>
     </header>
 
-      <div class="Seguna_Parte"> 
+    <div class="Seguna_Parte"></div>
 
-        <div>
-
-
-        </div>
-
-
-
- 
-      </div>  
-
-      <div class="sobre_mi" > 
-        
-        <h1>Sobre Mi</h1>
-
-
-
-      </div>
-      <div class="descripcion">
-        <p>
-          ¡Hola! Soy Rubén R., estudiante de Ingeniería Electrónica en el
-          Instituto Tecnológico de Saltillo. Desde siempre he tenido una gran
-          pasión por los microcontroladores y la tecnología. Disfruto transformar
-          ideas en proyectos funcionales, combinando creatividad y conocimientos
-          técnicos. En mi tiempo libre, me encanta diseñar y construir proyectos
-          electrónicos, lo cual no solo es mi pasatiempo favorito, sino también
-          una forma de seguir aprendiendo y perfeccionando mis habilidades. Soy
-          una persona curiosa y proactiva, siempre en búsqueda de nuevas
-          herramientas y conocimientos para enfrentar los retos del mundo
-          tecnológico. Mi experiencia incluye reparación de tarjetas electrónicas,
-          programación en lenguajes como Python y JavaScript, y manejo avanzado de
-          herramientas como Excel y PLC. Además, disfruto aprender de otros
-          campos, como desarrollo web, para complementar mis habilidades y crear
-          soluciones integrales. Más allá de la electrónica, valoro el aprendizaje
-          continuo, el trabajo en equipo y las oportunidades de crecimiento
-          personal y profesional. Estoy convencido de que cada nuevo proyecto es
-          una oportunidad para aprender algo nuevo y dejar mi huella.
-        </p>
-      </div>
-
-    
+    <div class="sobre_mi">
+      <h1>Sobre Mi</h1>
+    </div>
+    <div class="descripcion">
+      <p>
+        ¡Hola! Soy Rubén R., estudiante de Ingeniería Electrónica en el
+        Instituto Tecnológico de Saltillo. Desde siempre he tenido una gran
+        pasión por los microcontroladores y la tecnología. Disfruto transformar
+        ideas en proyectos funcionales, combinando creatividad y conocimientos
+        técnicos. En mi tiempo libre, me encanta diseñar y construir proyectos
+        electrónicos, lo cual no solo es mi pasatiempo favorito, sino también
+        una forma de seguir aprendiendo y perfeccionando mis habilidades. Soy
+        una persona curiosa y proactiva, siempre en búsqueda de nuevas
+        herramientas y conocimientos para enfrentar los retos del mundo
+        tecnológico. Mi experiencia incluye reparación de tarjetas electrónicas,
+        programación en lenguajes como Python y JavaScript, y manejo avanzado de
+        herramientas como Excel y PLC. Además, disfruto aprender de otros
+        campos, como desarrollo web, para complementar mis habilidades y crear
+        soluciones integrales. Más allá de la electrónica, valoro el aprendizaje
+        continuo, el trabajo en equipo y las oportunidades de crecimiento
+        personal y profesional. Estoy convencido de que cada nuevo proyecto es
+        una oportunidad para aprender algo nuevo y dejar mi huella.
+      </p>
+    </div>
   </body>
 </html>
