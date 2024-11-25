@@ -19,6 +19,7 @@ body {
   background-position: 10% 30%;
   width: 100%;
   height: 920px;
+  background-attachment: fixed;
 }
 
 .List {
@@ -30,6 +31,10 @@ body {
   display: flex;
   justify-content: center;
   gap: 90px;
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+  margin-top: 10px;
 }
 
 a {
