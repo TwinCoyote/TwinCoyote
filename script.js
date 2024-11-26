@@ -1,29 +1,19 @@
-console.log("JavaScript is amazing!");
-$(document).ready(function($) {
-  function animateElements() {
-    $('.progressbar').each(function() {
-      var elementPos = $(this).offset().top;
-      var topOfWindow = $(window).scrollTop();
-      var percent = $(this).find('.circle').attr('data-percent');
-      var percentage = parseInt(percent, 10) / parseInt(100, 10);
-      var animate = $(this).data('animate');
-      if (elementPos < topOfWindow + $(window).height() - 30 && !animate) {
-        $(this).data('animate', true);
-        $(this).find('.circle').circleProgress({
-          startAngle: -Math.PI / 2,
-          value: percent / 100,
-          thickness: 14,
-          fill: {
-            color: '#1B58B8'
-          }
-        }).on('circle-animation-progress', function(event, progress, stepValue) {
-          $(this).find('div').text((stepValue * 100).toFixed(1) + "%");
-        }).stop();
-      }
+// Seleccionamos los elementos necesarios
+const container = document.querySelector(".logos");
+const progressBars = document.querySelectorAll(".skill-per"); // Tus barras de progreso
+let bol = false; // Bandera para que solo se ejecute una vez
+
+// Escuchamos el evento scroll
+window.addEventListener("scroll", () => {
+  if (window.pageYOffset > container.offsetTop - 650 && bol === false) {
+    bol = true; // Marcamos que ya se ejecutó
+    progressBars.forEach((bar) => {
+      let count = 0; // Inicia el contador en 0
+      const percentage = parseInt(bar.getAttribute("per")); // Obtenemos el porcentaje desde el atributo
+      bar.style.transition = `width ${percentage * 30}ms`; // Animación suave
+      bar.style.width = `${percentage}%`; // Aplicamos el ancho a la barra
+
+     // Llamamos a la función para iniciar el conteo
     });
   }
-
-  // Show animated elements
-  animateElements();
-  $(window).scroll(animateElements);
 });

@@ -197,6 +197,7 @@ h1 {
   border-radius: 3px;
   position: relative;
   animation: fillBars 2.5s 1;
+  width: 0;
 }
 
 .skill-per::before {
@@ -223,13 +224,4 @@ h1 {
   transform: translateX(50%) rotate(45deg);
   border-radius: 2px;
   border-color: red;
-}
-
-@keyframes fillBars {
-  from {
-    width: 0;
-  }
-  to {
-    width: 50%;
-  }
 }
