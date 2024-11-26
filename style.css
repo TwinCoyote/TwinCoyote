@@ -152,4 +152,24 @@ h1 {
 .logos {
   background-color: #cf0202;
   display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  gap: 300px;
+}
+
+.logo img {
+  width: 200px;
+  height: auto;
+}
+
+.logo html {
+}
+
+.logo css {
+}
+
+.logo.javaS img {
+}
+
+.logo python {
 }
