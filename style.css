@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", "sans-serif";''
+  font-family: "Poppins", "sans-serif";
 }
 
 body {
@@ -154,19 +154,16 @@ h1 {
   justify-content: center;
   margin-top: 50px;
   gap: 300px;
-  background-color: red;
 }
 
 .logo img {
   width: 200px;
   height: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
-
-
-
-
-
-
 
 .logo {
   position: relative;
@@ -174,41 +171,65 @@ h1 {
   height: 200px;
 }
 
-.progress-ring {
+.skills {
+  width: 100%;
+  max-width: 600px;
+  padding: 170px 1px;
+}
+
+.skill-name {
+  font-size: 18px;
+  font-weight: 700;
+  color: white;
+  text-transform: uppercase;
+  margin: 20px 0;
+}
+
+.skill-bar {
+  height: 14px;
+  background-color: #dbd4d438;
+  border-radius: 3px;
+}
+
+.skill-per {
+  height: 14px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 3px;
+  position: relative;
+  animation: fillBars 2.5s 1;
+}
+
+.skill-per::before {
+  content: attr(per);
   position: absolute;
-  top: 0;
-  left: 0;
-  transform: rotate(-90deg); /* Rota el círculo para que empiece desde arriba */
+  padding: 4px 6px;
+  background: rgb(0, 0, 0);
+  border-radius: 4px;
+  font-size: 12px;
+  top: 25px;
+  right: 0;
+  transform: translateX(50%);
+  color: white;
 }
 
-.progress-ring__background {
-  stroke: #e0e0e0; /* Fondo del círculo */
-  stroke-dasharray: 565; /* Circunferencia (2 * PI * radio) */
-  stroke-dashoffset: 0;
-}
-
-.progress-ring__circle {
-  stroke: #ff4500; /* Color del progreso */
-  stroke-dasharray: 565; /* Circunferencia */
-  stroke-dashoffset: 565; /* Oculto inicialmente */
-  transition: stroke-dashoffset 1s ease-out;
-}
-
-.icon {
+.skill-per::after {
+  content: "";
   position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 80px;
-  height: 80px;
-  transform: translate(-50%, -50%);
+  width: 10px;
+  height: 10px;
+  background-color: rgb(0, 0, 0);
+  top: 20px;
+  right: 0;
+  transform: translateX(50%) rotate(45deg);
+  border-radius: 2px;
+  border-color: red;
 }
 
-.percentage {
-  position: absolute;
-  top: 70%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 20px;
-  font-weight: bold;
-  color: black;
+@keyframes fillBars {
+  from {
+    width: 0;
+  }
+  to {
+    width: 50%;
+  }
 }
