@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", "sans-serif";
+  font-family: "Poppins", "sans-serif";''
 }
 
 body {
@@ -15,7 +15,7 @@ body {
 
 .home {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("sal.jpg");
+    url("iconos/sal.jpg");
   background-position: 10% 30%;
   width: 100%;
   height: 911px;
@@ -115,16 +115,16 @@ h1 {
 }
 
 .sobre_mi {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 30px;
+  font-style: normal;
   height: 80px;
   width: 245px;
   margin-top: 100px;
   display: flex;
   align-items: center;
   justify-self: center;
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 30px;
-  font-style: normal;
 }
 
 .descripcion {
@@ -141,7 +141,7 @@ h1 {
 }
 
 .linea {
-  background-image: url("acento-circunflejo.png");
+  background-image: url("iconos/iacento-circunflejo.png");
   display: flex;
   justify-self: center;
   width: 50px;
@@ -150,7 +150,6 @@ h1 {
 }
 
 .logos {
-  background-color: #cf0202;
   display: flex;
   justify-content: center;
   margin-top: 50px;
@@ -162,14 +161,45 @@ h1 {
   height: auto;
 }
 
-.logo html {
+
+
+.progressbar {
+  display: inline-block;
+  width: 100px;
+  margin: 25px;
 }
 
-.logo css {
+.circle {
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 10px;
+  display: inline-block;
+  position: relative;
+  text-align: center;
 }
 
-.logo.javaS img {
+.circle canvas {
+  vertical-align: middle;
 }
 
-.logo python {
+.circle div {
+  position: absolute;
+  top: 30px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  line-height: 40px;
+  font-size: 20px;
+}
+
+.circle strong i {
+  font-style: normal;
+  font-size: 0.6em;
+  font-weight: normal;
+}
+
+.circle span {
+  display: block;
+  color: #aaa;
+  margin-top: 12px;
 }
