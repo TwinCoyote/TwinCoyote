@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", "sans-serif";
+  font-family: "Roboto", sans-serif;
 }
 
 body {
@@ -17,7 +17,7 @@ body {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("Iconos/sal.jpg");
   background-position: 10% 30%;
-  width: 100%;
+  width: 1900px;
   height: 911px;
   background-attachment: fixed;
 }
@@ -224,4 +224,132 @@ h1 {
   transform: translateX(50%) rotate(45deg);
   border-radius: 2px;
   border-color: red;
+}
+
+@media screen and (max-width: 400px) {
+  .List {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-start;
+    gap: 40px;
+    width: 400px;
+    margin-top: 20px;
+    top: 0;
+    transition: all 0.1s ease-in-out;
+    z-index: 1000;
+  }
+
+  .List.scrolled {
+    justify-content: space-around;
+    top: -20px;
+    gap: 2px;
+    width: 400px;
+    height: 20px;
+    background-color: rgba(63, 57, 57, 0.342);
+  }
+
+  .List.scrolled img {
+    display: block;
+  }
+
+  .List img {
+    display: none;
+    width: 10px;
+    height: auto;
+  }
+
+  .home {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.185),
+        rgba(0, 0, 0, 0.226)
+      ),
+      url("Iconos/celulares.jpg");
+    width: 100%;
+    height: 849px;
+    background-size: 140%;
+  }
+
+  .first-text {
+    color: #ff8c42;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  }
+  .escritura {
+    color: white;
+    font-size: 50px;
+    font-weight: 600;
+
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  }
+  .texto {
+    font-size: 100px;
+    font-weight: 600;
+  }
+  .slide_1 {
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+    margin-top: 100px;
+    width: 100%;
+  }
+
+  .segunda_parte {
+    width: 100%;
+    height: 845px;
+  }
+
+  .sobre_mi {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    font-style: normal;
+    height: 80px;
+    width: 245px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+  }
+
+  .descripcion {
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    font-style: normal;
+    width: 390px;
+    text-align: center;
+    margin-top: 100px;
+  }
+  .logos {
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    gap: 10px;
+  }
+
+  .logo img {
+    width: 80px;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .tercera_parte {
+    background-color: #2b2b2b;
+    width: 100%;
+    height: 849px;
+  }
+  .skills {
+    width: 100%;
+    max-width: 600px;
+    padding: 90px 1px;
+  }
 }
