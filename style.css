@@ -359,7 +359,6 @@ h1 {
   color: white;
 }
 .proyectos {
-  background-color: red;
   width: 45%;
   display: flex;
   flex-direction: column;
@@ -368,44 +367,50 @@ h1 {
 }
 
 .proyectos_des {
-  background-color: #d4a017;
-  text-align: center;
+  text-align: justify;
   width: 70%;
   margin-left: 15%;
   font-size: 30px;
 }
 
 .tercer_titulo {
-  background-color: blue;
   display: flex;
   justify-content: center;
   font-size: 40px;
+  color: #ffd700;
 }
 
 .ventanas {
-  background-color: rgb(0, 38, 255);
   width: 55%;
   height: 87%;
   margin-top: 5%;
   display: flex;
   justify-content: center;
-  gap: 10%;
+  gap: 5%;
 }
 .v {
   width: 25%;
   border-radius: 20px;
+  border-style: solid;
 }
 
 .tres {
   background-image: url("Iconos/Jam.jpeg");
   background-position: 42% 60%;
   background-size: 420%;
+  filter: grayscale(100%);
 }
 
 .dos {
-  background-image: url("Iconos/Jam.jpeg");
+  background-image: url("Iconos/web.jpg");
+  background-position: 50% 40%;
+  background-size: 220%;
+  filter: grayscale(100%);
 }
 
 .uno {
-  background-image: url("Iconos/Jam.jpeg");
+  background-image: url("Iconos/microcontrolador.jpg");
+  background-size: 180%;
+  filter: grayscale(100%);
+  background-position: 52% 60%;
 }
