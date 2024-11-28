@@ -392,12 +392,20 @@ h1 {
   gap: 10%;
 }
 .v {
-  background-color: #fff;
   width: 25%;
   border-radius: 20px;
 }
 
-.v .uno {
-  background-color: orange;
-  color: black;
+.tres {
+  background-image: url("Iconos/Jam.jpeg");
+  background-position: 42% 60%;
+  background-size: 420%;
+}
+
+.dos {
+  background-image: url("Iconos/Jam.jpeg");
+}
+
+.uno {
+  background-image: url("Iconos/Jam.jpeg");
 }
