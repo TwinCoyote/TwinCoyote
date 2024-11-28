@@ -111,12 +111,6 @@ h1 {
   height: 920px;
 }
 
-.tercera_parte {
-  background-color: #2b2b2b;
-  width: 100%;
-  height: 920px;
-}
-
 .sobre_mi {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -272,7 +266,7 @@ h1 {
       url("Iconos/celulares.jpg");
     width: 100%;
     height: 849px;
-    background-size: 140%;
+    background-size: 160%;
   }
 
   .first-text {
@@ -355,4 +349,35 @@ h1 {
     max-width: 600px;
     padding: 90px 1px;
   }
+}
+
+.tercera_parte {
+  background-color: #2b2b2b;
+  width: 100%;
+  height: 920px;
+  display: flex;
+  color: white;
+}
+.proyectos {
+  background-color: red;
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10%;
+  gap: 10%;
+}
+
+.proyectos_des {
+  background-color: #d4a017;
+  text-align: center;
+  width: 70%;
+  margin-left: 15%;
+  font-size: 30px;
+}
+
+.tercer_titulo {
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
 }
