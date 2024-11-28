@@ -30,7 +30,7 @@ body {
   list-style-type: none;
   display: flex;
   justify-content: center;
-  gap: 90px;
+  gap: 10%;
   overflow: hidden;
   position: fixed;
   width: 100%;
@@ -44,7 +44,7 @@ body {
 .List.scrolled {
   justify-content: space-around;
   top: 8px;
-  gap: 120px;
+  gap: 9%;
 }
 
 .List.scrolled img {
@@ -79,6 +79,7 @@ h1 {
   align-items: center;
   justify-content: baseline;
   margin-top: 250px;
+  margin-left: 2%;
 }
 
 .texto {
@@ -95,6 +96,7 @@ h1 {
   color: white;
   font-size: 100px;
   font-weight: 600;
+  margin-left: 2%;
 }
 
 .typed-cursor {
@@ -137,7 +139,7 @@ h1 {
   font-weight: 500;
   font-size: 20px;
   font-style: normal;
-  width: 900px;
+  width: 90%;
   text-align: center;
 }
 
@@ -154,11 +156,11 @@ h1 {
   display: flex;
   justify-content: center;
   margin-top: 50px;
-  gap: 300px;
+  gap: 10%;
 }
 
 .logo img {
-  width: 200px;
+  width: 100%;
   height: auto;
   position: absolute;
   top: 50%;
@@ -168,14 +170,14 @@ h1 {
 
 .logo {
   position: relative;
-  width: 200px;
+  width: 15%;
   height: 200px;
 }
 
 .skills {
   width: 100%;
-  max-width: 600px;
-  padding: 170px 1px;
+  max-width: 400px;
+  padding: 70% 1px;
 }
 
 .skill-name {
@@ -224,7 +226,7 @@ h1 {
   right: 0;
   transform: translateX(50%) rotate(45deg);
   border-radius: 2px;
-  border-color: red;
+  border-color: rgb(55, 0, 255);
 }
 
 @media screen and (max-width: 400px) {
