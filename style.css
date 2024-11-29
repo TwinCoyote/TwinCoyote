@@ -306,16 +306,16 @@ h1 {
   background-color: white;
 }
 
-@media (max-width: 399px) {
+@media (max-width: 532px) {
   .List {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 15px;
     list-style-type: none;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     gap: 40px;
-    width: 400px;
+    width: 100%;
     margin-top: 20px;
     top: 0;
     transition: all 0.1s ease-in-out;
@@ -326,7 +326,7 @@ h1 {
     justify-content: space-around;
     top: -20px;
     gap: 2px;
-    width: 400px;
+    width: 100%;
     height: 20px;
     background-color: rgba(63, 57, 57, 0.342);
   }
@@ -349,7 +349,7 @@ h1 {
       url("Iconos/celulares.jpg");
     width: 100%;
     height: 849px;
-    background-size: 160%;
+    background-size: 140%;
   }
 
   .first-text {
@@ -378,19 +378,20 @@ h1 {
   .segunda_parte {
     width: 100%;
     height: 845px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
   .sobre_mi {
     font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-size: 30px;
+    font-weight: 400;
+    font-size: 150%;
     font-style: normal;
     height: 80px;
-    width: 245px;
-    margin-top: 10px;
-    display: flex;
-    align-items: center;
-    justify-self: center;
+    width: 43%;
+    margin-top: 8%;
   }
 
   .descripcion {
@@ -400,17 +401,17 @@ h1 {
     justify-self: center;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 120%;
     font-style: normal;
-    width: 390px;
+    width: 100%;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 6%;
   }
   .logos {
     display: flex;
     justify-content: center;
     margin-top: 70px;
-    gap: 10px;
+    gap: 60%;
   }
 
   .logo img {
@@ -423,17 +424,125 @@ h1 {
   }
 
   .tercera_parte {
-    background-color: #2b2b2b;
+    background-color: #000000;
     width: 100%;
     height: 849px;
   }
   .skills {
     width: 100%;
-    max-width: 600px;
-    padding: 90px 1px;
+    padding: 450% 1px;
+  }
+  .skill-per::before {
+    content: attr(per);
+    position: absolute;
+    padding: 4px 6px;
+    background: rgb(0, 0, 0);
+    border-radius: 4px;
+    font-size: 12px;
+    top: 25px;
+    right: 0;
+    transform: translateX(50%);
+    color: white;
+  }
+
+  .skill-per::after {
+    content: "";
+    position: absolute;
+    width: 60%;
+    height: 10px;
+    background-color: rgb(0, 0, 0);
+    top: 20px;
+    right: 0;
+    transform: translateX(50%) rotate(45deg);
+    border-radius: 2px;
+    border-color: rgb(55, 0, 255);
+  }
+  .tercera_parte {
+    background-color: #000000;
+    width: 100%;
+    height: 950px;
+    display: flex;
+    color: white;
+  }
+  .proyectos {
+    width: 100%;
+    gap: 1%;
+    background-size: 200%;
+  }
+
+  .proyectos_des {
+    display: flex;
+    width: 100%;
+    font-size: 30px;
+    color: #ffffff;
+    justify-content: center;
+    align-self: center;
+  }
+
+  .proyectos_des_back {
+    width: 70%;
+    font-size: 100%;
+    text-align: center;
+  }
+
+  .tercer_titulo {
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+
+    text-shadow: rgb(0, 0, 0) 0 4px;
+  }
+
+  .ventanas {
+    width: 100%;
+    height: 60%;
+    margin-top: 15%;
+    gap: 5%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80%;
+  }
+  .v {
+    width: 73%;
+    height: 50%;
+    border-radius: 20px;
+    border-style: solid;
+    transition: transform 0.3s ease;
+    display: flex;
+    justify-content: center;
+  }
+  .v:hover {
+    transform: scale(1.1); /* Escala la imagen al pasar el mouse */
+  }
+
+  .tres {
+    background-image: url("Iconos/Jam.jpeg");
+    background-position: 42% 80%;
+    background-size: 200%;
+  }
+
+  .dos {
+    background-image: url("Iconos/web.jpg");
+    background-position: 50% 40%;
+    background-size: 110%;
+  }
+
+  .uno {
+    background-image: url("Iconos/microcontrolador.jpg");
+    background-size: 80%;
+    background-position: 52% 60%;
+  }
+
+  .cuarta_parte {
+    width: 100%;
+    height: 950px;
+    background-color: white;
   }
 }
-@media (min-width: 400px) and (max-width: 900px) {
+@media (min-width: 533px) and (max-width: 859px) {
   .home {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
       url("Iconos/sal.jpg");
@@ -594,6 +703,7 @@ h1 {
     height: 950px;
     display: flex;
     color: white;
+    justify-content: center;
   }
   .proyectos {
     width: 100%;
@@ -626,18 +736,17 @@ h1 {
   }
 
   .ventanas {
-    width: 100%;
+    width: 90%;
     height: 70%;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 50%;
+    margin-top: 40%;
   }
   .v {
     display: flex;
     width: 63%;
-    height: 65%;
+    height: 85%;
     border-radius: 20px;
     border-style: solid;
     transition: transform 0.3s ease;
@@ -649,7 +758,238 @@ h1 {
   .tres {
     background-image: url("Iconos/Jam.jpeg");
     background-position: 42% 80%;
+    background-size: 200%;
+  }
+
+  .dos {
+    background-image: url("Iconos/web.jpg");
+    background-position: 50% 40%;
     background-size: 100%;
+  }
+
+  .uno {
+    background-image: url("Iconos/microcontrolador.jpg");
+    background-size: 80%;
+    background-position: 52% 60%;
+  }
+}
+@media (min-width: 860px) and (max-width: 1300px) {
+  .home {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("Iconos/sal.jpg");
+    background-position: 10% 30%;
+    width: 100%;
+    height: 911px;
+    background-attachment: fixed;
+  }
+
+  .List {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    margin-top: 10px;
+    top: 0;
+    transition: all 0.1s ease-in-out;
+    z-index: 1000;
+    color: #fff;
+  }
+
+  .List.scrolled {
+    justify-content: space-around;
+    top: 8px;
+    gap: 9%;
+  }
+
+  .List.scrolled img {
+    display: block;
+  }
+
+  .List img {
+    display: none;
+    width: 100px;
+    height: auto;
+  }
+
+  @media (width > 980px) {
+    .List {
+      top: 0.5rem;
+      mix-blend-mode: difference;
+    }
+  }
+
+  a {
+    color: #e8e8e8e0;
+    text-decoration: none;
+  }
+  h1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+
+  .slide_1 {
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+    margin-top: 250px;
+    margin-left: 2%;
+  }
+
+  .texto {
+    color: white;
+    font-size: 100px;
+    font-weight: 600;
+  }
+
+  .first-text {
+    color: #d4a017;
+  }
+
+  .escritura {
+    color: white;
+    font-size: 100px;
+    font-weight: 600;
+    margin-left: 2%;
+  }
+
+  .typed-cursor {
+    color: white;
+    text-align: center;
+    font-size: 100px;
+  }
+  .slide_1 {
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+    margin-top: 100px;
+    width: 100%;
+  }
+
+  .segunda_parte {
+    width: 100%;
+    height: 845px;
+  }
+
+  .sobre_mi {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    font-style: normal;
+    height: 80px;
+    width: 245px;
+    margin-top: 2%;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+  }
+
+  .descripcion {
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    font-style: normal;
+    width: 80%;
+    text-align: center;
+  }
+  .logos {
+    display: flex;
+    justify-content: center;
+    margin-top: 8%;
+    gap: 5%;
+  }
+
+  .logo img {
+    width: 80%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .tercera_parte {
+    width: 100%;
+    height: 849px;
+  }
+  .skills {
+    width: 100%;
+    max-width: 600px;
+    padding: 70% 1px;
+  }
+
+  .tercera_parte {
+    background-color: #000000;
+    width: 100%;
+    height: 950px;
+    display: flex;
+    color: white;
+    justify-content: center;
+  }
+  .proyectos {
+    width: 100%;
+    gap: 1%;
+    background-size: 200%;
+  }
+
+  .proyectos_des {
+    display: flex;
+    width: 100%;
+    font-size: 30px;
+    color: #ffffff;
+    justify-content: center;
+    align-self: center;
+  }
+
+  .proyectos_des_back {
+    width: 70%;
+    font-size: 100%;
+    text-align: center;
+  }
+
+  .tercer_titulo {
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+
+    text-shadow: rgb(0, 0, 0) 0 4px;
+  }
+
+  .ventanas {
+    width: 90%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20%;
+  }
+  .v {
+    display: flex;
+    width: 63%;
+    height: 85%;
+    border-radius: 20px;
+    border-style: solid;
+    transition: transform 0.3s ease;
+  }
+  .v:hover {
+    transform: scale(1.1);
+  }
+
+  .tres {
+    background-image: url("Iconos/Jam.jpeg");
+    background-position: 42% 80%;
+    background-size: 200%;
   }
 
   .dos {
