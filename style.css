@@ -13,6 +13,9 @@ body {
   width: 100%;
   /*overflow: hidden; */
 }
+body::-webkit-scrollbar {
+  display: none;
+}
 
 .home {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
@@ -108,7 +111,7 @@ h1 {
 .segunda_parte {
   background-color: #ffffff;
   width: 100%;
-  height: 920px;
+  height: 950px;
 }
 
 .sobre_mi {
@@ -118,20 +121,20 @@ h1 {
   font-style: normal;
   height: 80px;
   width: 245px;
-  margin-top: 100px;
+  margin-top: 5%;
   display: flex;
   align-items: center;
   justify-self: center;
 }
 
 .descripcion {
-  height: 300px;
+  height: 30%;
   display: flex;
   align-items: center;
   justify-self: center;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 155%;
   font-style: normal;
   width: 90%;
   text-align: center;
@@ -171,7 +174,7 @@ h1 {
 .skills {
   width: 100%;
   max-width: 400px;
-  padding: 70% 1px;
+  padding: 75% 1px;
 }
 
 .skill-name {
@@ -223,7 +226,87 @@ h1 {
   border-color: rgb(55, 0, 255);
 }
 
-@media screen and (max-width: 400px) {
+.tercera_parte {
+  background-color: #000000;
+  width: 100%;
+  height: 950px;
+  display: flex;
+  color: white;
+}
+.proyectos {
+  width: 100%;
+  gap: 1%;
+  background-size: 200%;
+}
+
+.proyectos_des {
+  display: flex;
+  width: 100%;
+  font-size: 30px;
+  color: #ffffff;
+  justify-content: center;
+  align-self: center;
+}
+
+.proyectos_des_back {
+  width: 70%;
+  font-size: 100%;
+  text-align: center;
+}
+
+.tercer_titulo {
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+
+  text-shadow: rgb(0, 0, 0) 0 4px;
+}
+
+.ventanas {
+  width: 100%;
+  height: 67%;
+  margin-top: 15%;
+  display: flex;
+  justify-content: center;
+  gap: 5%;
+  position: absolute;
+}
+.v {
+  width: 23%;
+  border-radius: 20px;
+  border-style: solid;
+  transition: transform 0.3s ease;
+}
+.v:hover {
+  transform: scale(1.1); /* Escala la imagen al pasar el mouse */
+}
+
+.tres {
+  background-image: url("Iconos/Jam.jpeg");
+  background-position: 42% 80%;
+  background-size: 200%;
+}
+
+.dos {
+  background-image: url("Iconos/web.jpg");
+  background-position: 50% 40%;
+  background-size: 110%;
+}
+
+.uno {
+  background-image: url("Iconos/microcontrolador.jpg");
+  background-size: 80%;
+  background-position: 52% 60%;
+}
+
+.cuarta_parte {
+  width: 100%;
+  height: 950px;
+  background-color: white;
+}
+
+@media (max-width: 399px) {
   .List {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -350,73 +433,234 @@ h1 {
     padding: 90px 1px;
   }
 }
+@media (min-width: 400px) and (max-width: 900px) {
+  .home {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("Iconos/sal.jpg");
+    background-position: 10% 30%;
+    width: 100%;
+    height: 911px;
+    background-attachment: fixed;
+  }
 
-.tercera_parte {
-  background-color: #000000;
-  width: 100%;
-  height: 920px;
-  display: flex;
-  color: white;
-}
-.proyectos {
-  width: 100%;
-  gap: 1%;
-  background-size: 200%;
-}
+  .List {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    margin-top: 10px;
+    top: 0;
+    transition: all 0.1s ease-in-out;
+    z-index: 1000;
+    color: #fff;
+  }
 
-.proyectos_des {
-  display: flex;
-  width: 100%;
-  font-size: 30px;
-  color: #ffffff;
-  justify-content: center;
-  align-self: center;
-}
+  .List.scrolled {
+    justify-content: space-around;
+    top: 8px;
+    gap: 9%;
+  }
 
-.proyectos_des_back {
-  width: 70%;
-  font-size: 100%;
-  text-align: center;
-}
+  .List.scrolled img {
+    display: block;
+  }
 
-.tercer_titulo {
-  margin-top: 3%;
-  display: flex;
-  justify-content: center;
-  font-size: 40px;
+  .List img {
+    display: none;
+    width: 100px;
+    height: auto;
+  }
 
-  text-shadow: rgb(0, 0, 0) 0 4px;
-}
+  @media (width > 980px) {
+    .List {
+      top: 0.5rem;
+      mix-blend-mode: difference;
+    }
+  }
 
-.ventanas {
-  width: 100%;
-  height: 67%;
-  margin-top: 15%;
-  display: flex;
-  justify-content: center;
-  gap: 5%;
-  position: absolute;
-}
-.v {
-  width: 28%;
-  border-radius: 20px;
-  border-style: solid;
-}
+  a {
+    color: #e8e8e8e0;
+    text-decoration: none;
+  }
+  h1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
 
-.tres {
-  background-image: url("Iconos/Jam.jpeg");
-  background-position: 42% 80%;
-  background-size: 200%;
-}
+  .slide_1 {
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+    margin-top: 250px;
+    margin-left: 2%;
+  }
 
-.dos {
-  background-image: url("Iconos/web.jpg");
-  background-position: 50% 40%;
-  background-size: 100%;
-}
+  .texto {
+    color: white;
+    font-size: 100px;
+    font-weight: 600;
+  }
 
-.uno {
-  background-image: url("Iconos/microcontrolador.jpg");
-  background-size: 70%;
-  background-position: 52% 60%;
+  .first-text {
+    color: #d4a017;
+  }
+
+  .escritura {
+    color: white;
+    font-size: 100px;
+    font-weight: 600;
+    margin-left: 2%;
+  }
+
+  .typed-cursor {
+    color: white;
+    text-align: center;
+    font-size: 100px;
+  }
+  .slide_1 {
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+    margin-top: 100px;
+    width: 100%;
+  }
+
+  .segunda_parte {
+    width: 100%;
+    height: 845px;
+  }
+
+  .sobre_mi {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    font-style: normal;
+    height: 80px;
+    width: 245px;
+    margin-top: 2%;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+  }
+
+  .descripcion {
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    font-style: normal;
+    width: 80%;
+    text-align: center;
+  }
+  .logos {
+    display: flex;
+    justify-content: center;
+    margin-top: 8%;
+    gap: 5%;
+  }
+
+  .logo img {
+    width: 80%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .tercera_parte {
+    width: 100%;
+    height: 849px;
+  }
+  .skills {
+    width: 100%;
+    max-width: 600px;
+    padding: 70% 1px;
+  }
+
+  .tercera_parte {
+    background-color: #000000;
+    width: 100%;
+    height: 950px;
+    display: flex;
+    color: white;
+  }
+  .proyectos {
+    width: 100%;
+    gap: 1%;
+    background-size: 200%;
+  }
+
+  .proyectos_des {
+    display: flex;
+    width: 100%;
+    font-size: 30px;
+    color: #ffffff;
+    justify-content: center;
+    align-self: center;
+  }
+
+  .proyectos_des_back {
+    width: 70%;
+    font-size: 100%;
+    text-align: center;
+  }
+
+  .tercer_titulo {
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+
+    text-shadow: rgb(0, 0, 0) 0 4px;
+  }
+
+  .ventanas {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50%;
+  }
+  .v {
+    display: flex;
+    width: 63%;
+    height: 65%;
+    border-radius: 20px;
+    border-style: solid;
+    transition: transform 0.3s ease;
+  }
+  .v:hover {
+    transform: scale(1.1);
+  }
+
+  .tres {
+    background-image: url("Iconos/Jam.jpeg");
+    background-position: 42% 80%;
+    background-size: 100%;
+  }
+
+  .dos {
+    background-image: url("Iconos/web.jpg");
+    background-position: 50% 40%;
+    background-size: 100%;
+  }
+
+  .uno {
+    background-image: url("Iconos/microcontrolador.jpg");
+    background-size: 80%;
+    background-position: 52% 60%;
+  }
 }
