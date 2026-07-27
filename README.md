@@ -44,7 +44,8 @@
 <p>
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
-  <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white"/>
+  <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white"/>
+  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white"/>
 </p>
 
 <h3>Software Development</h3>
@@ -59,6 +60,7 @@
 <h3>Other Tools</h3>
 
 <p>
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
   <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white"/>
   <img src="https://img.shields.io/badge/MATLAB-orange?style=for-the-badge&logo=mathworks&logoColor=white"/>
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
@@ -141,26 +143,14 @@ Backend and full-stack projects focused on solving practical problems.
 
 ---
 
-## 📊 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=TU_USUARIO&show_icons=true&theme=tokyonight" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=TU_USUARIO&theme=tokyonight" />
-</p>
-
----
-
 ## 📫 Connect With Me
 
 <p>
-  💼 LinkedIn: <a href="TU_LINKEDIN">Rubén Reyna</a>
+  💼 LinkedIn: <a href="https://www.linkedin.com/in/rubenreynag/">Rubén Reyna</a>
 </p>
 
 <p>
-  📧 Email: <a href="mailto:TU_EMAIL">TU_EMAIL</a>
+  📧 Email: <a href="mailto:reynagarcialinoruben@gmail.com">My Email</a>
 </p>
 
 ---
