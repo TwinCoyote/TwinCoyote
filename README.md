@@ -18,7 +18,7 @@
 
 ## 🚀 About Me
 
-- 🔧 Specialized in **embedded systems development** (ESP32, Arduino, microcontrollers)
+- 🔧 Specialized in **embedded systems development** (ESP32, STM32, Arduino, microcontrollers)
 - 💻 Full-stack developer with experience in **Python, JavaScript, React, and Django**
 - 🎮 Creator of retro gaming projects (ESP-ARCADE, arcade consoles on microcontrollers)
 - 📡 Working with **wireless communication** (RF modules, IoT protocols)
@@ -33,8 +33,9 @@
 
 <p>
   <img src="https://img.shields.io/badge/C%2FC++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white"/>
+  <img src="https://img.shields.io/badge/STM32-03234B?style=for-the-badge&logo=stmicroelectronics&logoColor=white"/>
   <img src="https://img.shields.io/badge/ESP32-E7352C?style=for-the-badge&logo=espressif&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white"/>
   <img src="https://img.shields.io/badge/Microcontrollers-333333?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/IoT-00A98F?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/PCB%20Design-FF6B00?style=for-the-badge"/>
@@ -121,7 +122,7 @@ Personal portfolio and modern React applications. Showcasing web development ski
 Python scripts for embedded systems, computer vision with OpenCV, sensor data processing, motor control, and CLI tools for automating programming challenges with AI-powered reviews.
 </p>
 
-**Technologies:** Python • OpenCV • ESP32 • Arduino • CLI • Automation
+**Technologies:** Python • OpenCV • ESP32 • Arduino • STM32 • CLI • Automation
 
 ---
 
@@ -141,11 +142,11 @@ Web scraping tool for extracting song lyrics from websites with powerful search 
 
 | Category | Skills |
 |----------|--------|
-| **Embedded Systems** | ESP32, Arduino, C/C++, Microcontrollers, IoT, RF Communication, PCB Design |
+| **Embedded Systems** | ESP32, STM32, Arduino, C/C++, Microcontrollers, IoT, RF Communication, PCB Design, HAL/RTOS |
 | **Backend** | Django, Django REST, Python, SQL, REST APIs, Database Design |
 | **Frontend** | React, TypeScript, JavaScript, HTML5, CSS3 |
-| **Tools & DevOps** | Linux, Git, Docker, CMake, OpenCV |
-| **Hardware** | RF Modules (NRF24L01), Sensors, Motor Control, PCB Layout |
+| **Tools & DevOps** | Linux, Git, Docker, CMake, OpenCV, STM32CubeMX |
+| **Hardware** | RF Modules (NRF24L01), Sensors, Motor Control, PCB Layout, ARM Cortex-M |
 
 ---
 
