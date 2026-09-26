@@ -3,33 +3,33 @@
 </h1>
 
 <h3 align="center">
-  Electronics Engineer | Embedded Systems Developer | Software Enthusiast
+  Electronics Engineer | Embedded Systems Developer | Full-Stack Developer
 </h3>
 
 <hr>
 
 <p align="center">
-  Electronics engineer passionate about embedded systems, robotics, IoT, and software development.
-  I enjoy building projects that combine hardware and code, from microcontrollers and sensors to
-  backend applications and computer vision solutions.
+  Electronics engineer passionate about <b>embedded systems, microcontrollers, robotics, and IoT</b>. 
+  <br>
+  I build projects that combine hardware and software engineering, from arcade consoles and wireless prototypes to full-stack web applications and computer vision solutions.
 </p>
 
 ---
 
 ## 🚀 About Me
 
-<ul>
-  <li>🔧 Currently developing projects focused on <b>embedded systems, microcontrollers, and electronics</b>.</li>
-  <li>🌱 Improving my skills in <b>backend development, software engineering, and Linux environments</b>.</li>
-  <li>💡 Interested in <b>robotics, IoT, automation, and open-source hardware/software projects</b>.</li>
-  <li>📚 Always learning and building new projects to improve my engineering skills.</li>
-</ul>
+- 🔧 Specialized in **embedded systems development** (ESP32, Arduino, microcontrollers)
+- 💻 Full-stack developer with experience in **Python, JavaScript, React, and Django**
+- 🎮 Creator of retro gaming projects (ESP-ARCADE, arcade consoles on microcontrollers)
+- 📡 Working with **wireless communication** (RF modules, IoT protocols)
+- 🤖 Interested in **robotics, automation, computer vision, and hardware design**
+- 📚 Continuous learner in embedded systems, backend development, and Linux environments
 
 ---
 
 ## 🛠️ Technologies & Tools
 
-<h3>Embedded Systems</h3>
+### Embedded Systems & Electronics
 
 <p>
   <img src="https://img.shields.io/badge/C%2FC++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white"/>
@@ -37,124 +37,130 @@
   <img src="https://img.shields.io/badge/ESP32-E7352C?style=for-the-badge&logo=espressif&logoColor=white"/>
   <img src="https://img.shields.io/badge/Microcontrollers-333333?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/IoT-00A98F?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/PCB%20Design-FF6B00?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/RF%20Communication-E74C3C?style=for-the-badge"/>
 </p>
 
-<h3>Programming Languages</h3>
+### Programming Languages
 
 <p>
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"/>
   <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white"/>
   <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white"/>
 </p>
 
-<h3>Software Development</h3>
+### Backend & Web Development
 
 <p>
   <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Django%20REST-092E20?style=for-the-badge&logo=django&logoColor=white"/>
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
+  <img src="https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white"/>
+  <img src="https://img.shields.io/badge/REST%20APIs-009688?style=for-the-badge"/>
+</p>
+
+### Tools & Environments
+
+<p>
   <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"/>
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
-</p>
-
-<h3>Other Tools</h3>
-
-<p>
-  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
   <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white"/>
-  <img src="https://img.shields.io/badge/MATLAB-orange?style=for-the-badge&logo=mathworks&logoColor=white"/>
+  <img src="https://img.shields.io/badge/CMake-064F8C?style=for-the-badge&logo=cmake&logoColor=white"/>
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
 </p>
 
 ---
 
-## 🚀 Featured Projects
----
+## 🎯 Featured Projects
 
+### 🎮 ESP-ARCADE Series (Retro Gaming on Microcontrollers)
 
-### 🎮 ESP-ARCADE-32 (Portable Console)
+**[ESP-ARCADE](https://github.com/TwinCoyote/ESP-Arcade)** | **[ESP-ARCADE-32](https://github.com/TwinCoyote/ESP-ARCADE-32)** | **[Micro-Arcade](https://github.com/TwinCoyote/Micro-Arcade)**
 
 <p>
-Custom printed circuit board (PCB) design and firmware development for a portable handheld arcade console powered by the ESP32 microcontroller, integrating display, controls, and efficient power management.
+Custom arcade consoles powered by ESP32 and Arduino microcontrollers. Play classic games like Pong, Snake, Flappy Bird, and even Doom running on embedded systems with ultra-low latency. Includes custom PCB design, firmware optimization, and display/control integration.
 </p>
 
-<b>Technologies:</b>
-
-<ul>
-  <li>ESP32</li>
-  <li>C / C++</li>
-  <li>PCB Design & Hardware Architecture</li>
-  <li>SPI / I2C Protocols</li>
-</ul>
+**Technologies:** ESP32 • C/C++ • PCB Design • SPI/I2C • Embedded Systems
 
 ---
 
-### 📡 Dual NRF24L01 Wireless Hardware Prototype
+### 💼 Backend & Full-Stack Projects
+
+**[My-Page-Backend](https://github.com/TwinCoyote/My-Page-Backend)** | **[store-System](https://github.com/TwinCoyote/store-System)**
 
 <p>
-Hardware and firmware prototype integrating dual NRF24L01 RF transceiver modules with an ESP32 microcontroller for multi-channel wireless signal transmission, frequency sweeping, and RF experimentation.
+REST APIs built with Django for portfolio management, project administration, and e-commerce systems. Features admin panels, project management, and scalable backend architecture.
 </p>
 
-<b>Technologies:</b>
-
-<ul>
-  <li>ESP32</li>
-  <li>C / C++</li>
-  <li>NRF24L01 (2.4 GHz RF)</li>
-  <li>SPI Communication</li>
-  <li>Embedded Systems Development</li>
-</ul>
+**Technologies:** Django • Python • Django REST Framework • SQL • REST APIs
 
 ---
 
+### 🌐 Frontend & Web Development
 
-### 🌐 IoT & Embedded Projects
+**[Nueva_Pagina_Ruben](https://github.com/TwinCoyote/Nueva_Pagina_Ruben)** | **[Curso-React](https://github.com/TwinCoyote/Curso-React)**
 
 <p>
-Projects involving sensors, microcontrollers, and communication between hardware and software.
+Personal portfolio and modern React applications. Showcasing web development skills with responsive design, component architecture, and TypeScript integration.
 </p>
 
-<b>Technologies:</b>
-
-<ul>
-  <li>ESP32</li>
-  <li>C/C++</li>
-  <li>Electronics</li>
-  <li>IoT protocols</li>
-</ul>
+**Technologies:** React • TypeScript • JavaScript • HTML5 • CSS3
 
 ---
 
-### 📦 Web Applications
+### 🐍 Python & Automation Projects
+
+**[python-projects](https://github.com/TwinCoyote/python-projects)** | **[Retos-CLI](https://github.com/TwinCoyote/Retos-CLI)** | **[Logica_Ruben](https://github.com/TwinCoyote/Logica_Ruben)**
 
 <p>
-Backend and full-stack projects focused on solving practical problems.
+Python scripts for embedded systems, computer vision with OpenCV, sensor data processing, motor control, and CLI tools for automating programming challenges with AI-powered reviews.
 </p>
 
-<b>Technologies:</b>
+**Technologies:** Python • OpenCV • ESP32 • Arduino • CLI • Automation
 
-<ul>
-  <li>Python</li>
-  <li>Django</li>
-  <li>SQL</li>
-  <li>JavaScript</li>
-</ul>
+---
+
+### 🔍 Web Scraping & Utilities
+
+**[LetterSeach](https://github.com/TwinCoyote/LetterSeach)**
+
+<p>
+Web scraping tool for extracting song lyrics from websites with powerful search functionality.
+</p>
+
+**Technologies:** Python • Web Scraping • Data Processing
+
+---
+
+## 📊 Skills Summary
+
+| Category | Skills |
+|----------|--------|
+| **Embedded Systems** | ESP32, Arduino, C/C++, Microcontrollers, IoT, RF Communication, PCB Design |
+| **Backend** | Django, Django REST, Python, SQL, REST APIs, Database Design |
+| **Frontend** | React, TypeScript, JavaScript, HTML5, CSS3 |
+| **Tools & DevOps** | Linux, Git, Docker, CMake, OpenCV |
+| **Hardware** | RF Modules (NRF24L01), Sensors, Motor Control, PCB Layout |
 
 ---
 
 ## 📫 Connect With Me
 
-<p>
-  💼 LinkedIn: <a href="https://www.linkedin.com/in/rubenreynag/">Rubén Reyna</a>
-</p>
-
-<p>
-  📧 Email: <a href="mailto:reynagarcialinoruben@gmail.com">My Email</a>
+<p align="center">
+  💼 <a href="https://www.linkedin.com/in/rubenreynag/">LinkedIn - Rubén Reyna</a>
+  <br>
+  📧 <a href="mailto:reynagarcialinoruben@gmail.com">Email Me</a>
+  <br>
+  🐙 <a href="https://github.com/TwinCoyote">GitHub Profile</a>
 </p>
 
 ---
 
 <h3 align="center">
-  Building, learning and creating with hardware and software 🚀
+  Building innovative solutions combining embedded systems, software engineering, and hardware design 🚀
 </h3>
